@@ -10,6 +10,7 @@ class SuppressConfig {
     static var VerbatimSuppressValue = 5;     // Min number of answers in the Verbatim Table
     static var CommentSuppressValue = 20;      // Min number of answers in the Hitlist
     static var CategoricalSuppressValue = 5; // Min number of answers for cards on the Categorical page
+    static var BenchamrkSuppressValue = 10; // Min number of answers for benchmark value to be shown in Results table
 
     // minGap: min difference between neighbour units
     // unitSufficientBase: min number of the responses when a unit is always shown irrespective of <minGap> requirement
